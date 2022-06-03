@@ -1,0 +1,65 @@
+<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="148"
+                  height="27"
+                  viewBox="0 0 250 55"
+                >
+                  <g
+                    id="Group_1"
+                    data-name="Group 1"
+                    transform="translate(-89 -28)"
+                  >
+                    <text
+                      id="A"
+                      transform="translate(93 65)"
+                      fill="#ff0000"
+                      font-size="42"
+                      font-family="HelveticaNeue-Bold, Helvetica Neue"
+                      font-weight="700"
+                      letter-spacing="0.1em"
+                    >
+                      <tspan x="0" y="0">
+                        A
+                      </tspan>
+                    </text>
+                    <text
+                      id="LEX"
+                      transform="translate(126 65)"
+                      fill="#ededed"
+                      font-size="34"
+                      font-family="HelveticaNeue-Bold, Helvetica Neue"
+                      font-weight="700"
+                      letter-spacing="0.1em"
+                    >
+                      <tspan x="0" y="0">
+                        LEX
+                      </tspan>
+                    </text>
+                    <text
+                      id="D"
+                      transform="translate(219 66)"
+                      fill="#ff0000"
+                      font-size="42"
+                      font-family="HelveticaNeue-Bold, Helvetica Neue"
+                      font-weight="700"
+                      letter-spacing="0.1em"
+                    >
+                      <tspan x="0" y="0">
+                        D
+                      </tspan>
+                    </text>
+                    <text
+                      id="EV"
+                      transform="translate(253 65)"
+                      fill="#ededed"
+                      font-size="34"
+                      font-family="HelveticaNeue-Bold, Helvetica Neue"
+                      font-weight="700"
+                      letter-spacing="0.1em"
+                    >
+                      <tspan x="0" y="0">
+                        EV
+                      </tspan>
+                    </text>
+                  </g>
+                </svg>
