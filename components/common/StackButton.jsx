@@ -15,7 +15,6 @@ export default function StackButton({ href, children, ...props }) {
           letterSpacing={"wider"}
           textTransform="capitalize"
           variant="primary"
-          isExternal
           {...props}
         >
           {children}

@@ -66,6 +66,9 @@ export default function About() {
           <AboutCard title="Hosting">
             <StackButton href="https://vercel.com">Vercel</StackButton>
             <StackButton href="https://www.netlify.com">Netlify</StackButton>
+            <StackButton href="https://pages.github.com">
+              GitHub Pages
+            </StackButton>
           </AboutCard>
           <AboutCard title="Cloud & database services">
             <StackButton href="https://www.heroku.com">Heroku</StackButton>

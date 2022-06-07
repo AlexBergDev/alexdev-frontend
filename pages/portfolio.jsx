@@ -21,7 +21,7 @@ export default function Portfolio() {
         </Paragraph>
         <PortfolioGrid>
           <PortfolioCard
-            image="/assets/images/about/hero.jpg"
+            image="/assets/images/portfolio/arctic-inn-preview.jpg"
             date="Created May 29, 2022"
             title="Arctic Inn"
             description="Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum."
@@ -39,7 +39,7 @@ export default function Portfolio() {
           </PortfolioCard>
 
           <PortfolioCard
-            image="/assets/images/about/hero.jpg"
+            image="/assets/images/portfolio/js-frameworks-ca-preview.jpg"
             date="Created April 3, 2022"
             title="JS frameworks CA"
             description="Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum."
@@ -53,7 +53,7 @@ export default function Portfolio() {
           </PortfolioCard>
 
           <PortfolioCard
-            image="/assets/images/portfolio/arctic-fashion.jpg"
+            image="/assets/images/portfolio/arctic-fashion-preview.jpg"
             date="Created December 18, 2021"
             title="Arctic Fashion"
             description="A modern urban fashion online outlet for young women."
