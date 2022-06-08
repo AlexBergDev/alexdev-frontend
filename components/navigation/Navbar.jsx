@@ -65,7 +65,7 @@ export default function Navigation() {
                 alignItems="center"
               >
                 <VisuallyHidden>alexdev.no</VisuallyHidden>
-                <Box ml={2} w={136} h={30} position="relative">
+                <Box ml={2} w={98} h={8} position="relative">
                   <Image
                     src={logo}
                     alt={"Alex Dev"}
