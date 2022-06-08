@@ -24,7 +24,7 @@ export default function Portfolio() {
             image="/assets/images/portfolio/arctic-inn-preview.jpg"
             date="Created May 29, 2022"
             title="Arctic Inn"
-            description="Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum."
+            description="Real world client project made for project exam (2) at Noroff Vocational School."
             demoHref="https://arcticinn-frontend.vercel.app"
             githubHref="https://github.com/AlexBergDev/arcticinn-frontend"
           >
@@ -42,7 +42,7 @@ export default function Portfolio() {
             image="/assets/images/portfolio/js-frameworks-ca-preview.jpg"
             date="Created April 3, 2022"
             title="JS frameworks CA"
-            description="Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum."
+            description="A course assignment at Noroff Vocational School in Javascript frameworks."
             demoHref=""
             githubHref="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-AlexBergDev"
           >
