@@ -21,10 +21,24 @@ export default function Portfolio() {
         </Paragraph>
         <PortfolioGrid>
           <PortfolioCard
+            image="/assets/images/portfolio/eyes-of-norway-preview.jpg"
+            date="Created Nov 23, 2022"
+            title="Eyes of Norway"
+            description="Eyes of Norway is aiming for long-term, stable collaborations with only independent optical retailers on an exclusive distribution strategy in all areas around Scandinavia."
+            demoHref="https://eyesofnorway.com"
+            githubHref="https://github.com/AlexBergDev/eyesofnorway-frontend"
+          >
+            <StackButton href="https://nextjs.org">NextJS</StackButton>
+            <StackButton href="https://chakra-ui.com">Chakra UI</StackButton>
+            <StackButton href="https://strapi.io">Strapi</StackButton>
+            <StackButton href="https://cloudinary.com">Cloudinary</StackButton>
+          </PortfolioCard>
+
+          <PortfolioCard
             image="/assets/images/portfolio/arctic-inn-preview.jpg"
             date="Created May 29, 2022"
             title="Arctic Inn"
-            description="Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum."
+            description="Hotel & Camping website that allows guests to book a hotel room or parking. Information and pictures of the hotel and property are going to be displayed for potential guests."
             demoHref="https://arcticinn-frontend.vercel.app"
             githubHref="https://github.com/AlexBergDev/arcticinn-frontend"
           >
@@ -39,26 +53,12 @@ export default function Portfolio() {
           </PortfolioCard>
 
           <PortfolioCard
-            image="/assets/images/portfolio/js-frameworks-ca-preview.jpg"
-            date="Created April 3, 2022"
-            title="JS frameworks CA"
-            description="Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum."
-            demoHref=""
-            githubHref="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-AlexBergDev"
-          >
-            <StackButton href="https://nextjs.org">NextJS</StackButton>
-            <StackButton href="https://chakra-ui.com">Chakra UI</StackButton>
-            <StackButton href="https://strapi.io">Strapi</StackButton>
-            <StackButton href="https://vercel.com">Vercel</StackButton>
-          </PortfolioCard>
-
-          <PortfolioCard
             image="/assets/images/portfolio/arctic-fashion-preview.jpg"
             date="Created December 18, 2021"
             title="Arctic Fashion"
-            description="A modern urban fashion online outlet for young women."
+            description="A modern urban fashion online outlet for young women. Administration dashboard and login function included. (Fictional project / Not a real online shop)"
             demoHref="https://alexdasilva-arctic-fashion.netlify.app/"
-            githubHref="https://github.com/AlexBergDev/app-arcticfashion"
+            githubHref="https://github.com/AlexBergDev/alex-da-silva-semester-project-2"
           >
             <StackButton href="https://www.w3schools.com/html/html_intro.asp">
               HTML
