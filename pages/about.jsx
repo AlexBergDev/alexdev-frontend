@@ -17,7 +17,7 @@ export default function About() {
       <Head title="About me" description="Find out more about what I do" />
       <Container>
         <Heading>Find out more about what I do</Heading>
-        <Date mb={6}>Updated January 30, 2022</Date>
+        <Date mb={6}>Updated February 15, 2023</Date>
       </Container>
       <AboutHero />
       <Container>
@@ -25,67 +25,80 @@ export default function About() {
           Experience & skillset
         </SubHeading>
         <Paragraph mb={5}>
-          Front-End technology and frameworks are always evolving and changing.
-          Therefore it is from the utmost importance to stay on track with new
-          changes and updates. I am deeply invested in keeping myself updated
-          and open to learn new frameworks and technologies. I am trying to step
-          foot in Back-End recently. But my strengths lies in Front-End.
+          Aspiring Full Stack developer. I have some years of experience in
+          Front-End technologies and frameworks and am currently enrolled in a
+          Back-End Development vocational study. I am deeply invested in keeping
+          myself updated and open to learn new concepts. I have extensive
+          knowledge in Git, JavaScript, ReactJS, NextJS, HTML5, CSS3, SASS/SCSS
+          and strongly believe I can be a great asset in a team.
         </Paragraph>
         <AboutGrid>
-          <AboutCard title="Front-End">
+          <AboutCard title="Languages">
+            <StackButton href="https://nodejs.org/en/">NodeJS</StackButton>
             <StackButton href="https://www.w3schools.com/html/html_intro.asp">
-              HTML
+              HTML5
             </StackButton>
             <StackButton href="https://www.w3schools.com/css/css_intro.asp">
-              CSS
+              CSS3
             </StackButton>
-            <StackButton href="https://sass-lang.com">SCSS</StackButton>
-            <StackButton href="https://getbootstrap.com">Bootstrap</StackButton>
+            <StackButton href="https://www.javascript.com">
+              JavaScript
+            </StackButton>
+            <StackButton href="">GraphQL</StackButton>
+            <StackButton href="https://www.typescript.com">
+              TypeScript
+            </StackButton>
+          </AboutCard>
+
+          <AboutCard title="Frameworks, Platforms & Libraries">
             <StackButton href="https://tailwindcss.com">
               Tailwind CSS
             </StackButton>
-            <StackButton href="https://www.javascript.com">
-              JavaScript
-            </StackButton>
+            <StackButton href="https://sass-lang.com">SASS</StackButton>
+            <StackButton href="https://getbootstrap.com">Bootstrap</StackButton>
             <StackButton href="https://reactjs.org">ReactJS</StackButton>
             <StackButton href="https://nextjs.org">NextJS</StackButton>
             <StackButton href="https://chakra-ui.com">Chakra UI</StackButton>
-          </AboutCard>
-          <AboutCard title="Back-End">
-            <StackButton href="https://www.javascript.com">
-              JavaScript
-            </StackButton>
-            <StackButton href="https://nodejs.org/en/">NodeJS</StackButton>
             <StackButton href="https://expressjs.com">ExpressJS</StackButton>
+            <StackButton href="">jQuery</StackButton>
+            <StackButton href="">NPM</StackButton>
+            <StackButton href="">Webpack</StackButton>
           </AboutCard>
-          <AboutCard title="Content managment systems">
-            <StackButton href="https://wordpress.com">Wordpress</StackButton>
-            <StackButton href="https://strapi.io">Strapi</StackButton>
-            <StackButton href="https://www.joomla.org">Joomla</StackButton>
-          </AboutCard>
-          <AboutCard title="Hosting">
+
+          <AboutCard title="Hosting/SaaS & CMS">
+            <StackButton href="https://www.heroku.com">Heroku</StackButton>
+            <StackButton href="https://cloudinary.com">Cloudinary</StackButton>
             <StackButton href="https://vercel.com">Vercel</StackButton>
             <StackButton href="https://www.netlify.com">Netlify</StackButton>
             <StackButton href="https://pages.github.com">
               GitHub Pages
             </StackButton>
+            <StackButton href="https://wordpress.com">Wordpress</StackButton>
+            <StackButton href="https://strapi.io">Strapi</StackButton>
           </AboutCard>
-          <AboutCard title="Cloud & database services">
-            <StackButton href="https://www.heroku.com">Heroku</StackButton>
-            <StackButton href="https://cloudinary.com">Cloudinary</StackButton>
+
+          <AboutCard title="Databases">
+            <StackButton href="https://www.mysql.com">MySQL</StackButton>
+            <StackButton href="">MongoDB</StackButton>
             <StackButton href="https://www.postgresql.org">
               PostgreSQL
             </StackButton>
-            <StackButton href="https://www.mysql.com">MySQL</StackButton>
           </AboutCard>
+
+          <AboutCard title="Project Management">
+            <StackButton href="">Confluence</StackButton>
+            <StackButton href="">Jira</StackButton>
+            <StackButton href="">Trello</StackButton>
+          </AboutCard>
+
           <AboutCard title="UX/UI Design">
             <StackButton href="https://www.adobe.com/products/xd.html">
               Adobe Xd
             </StackButton>
-            <StackButton href="https://www.figma.com">Figma</StackButton>
             <StackButton href="https://www.adobe.com/products/illustrator.html">
               Adobe Illustrator
             </StackButton>
+            <StackButton href="https://www.figma.com">Figma</StackButton>
           </AboutCard>
         </AboutGrid>
         <SubHeading mt={6} mb={4}>
@@ -93,7 +106,7 @@ export default function About() {
         </SubHeading>
         <AboutProfile mb={6} />
         <Paragraph mb={5}>
-          My name is Alex and I am 23 years old. I live currently in Norway and
+          My name is Alex and I am 24 years old. I currently live in Norway and
           came originally from the tiny European country named Luxembourg.
         </Paragraph>
         <Paragraph mb={5}>
@@ -101,19 +114,17 @@ export default function About() {
           in Tromsø to be able to do all those activities on a regular basis.
         </Paragraph>
         <Paragraph mb={5}>
-          There are rarely communication barriers with me. Due to frequent
-          traveling, working and living throughout several countries in Europe,
-          I am able to speak 6 languages fluently (English, German, French,
-          Norwegian, Portuguese and Luxembourgish). So don&#39;t be shy to
-          contact me in your own language!
+          Due to frequent traveling, working and living throughout several
+          countries in Europe, I am able to speak 6 languages fluently (English,
+          German, French, Norwegian, Portuguese and Luxembourgish).
         </Paragraph>
         <Paragraph mb={5}>
-          After finishing school in Luxembourg, I decided to study for my
-          Bachelor in economics in Germany at Goethe University Frankfurt. I
-          proceeded to start working in Norway as a digital marketing manager
-          for a hotel in the Arctic when the opportunity came up. To further
-          boost my possibilities I started with Front-End Development studies at
-          Noroff Fagskole and am in the process of finishing my last year.
+          After finishing my education in Luxembourg, I proceeded to study
+          Front-End Development at Noroff Fagskole. I proceeded to start working
+          in Norway as a assistant hotel manager for a hotel in the Arctic when
+          the opportunity came up. To further boost my possibilities I started
+          with Back-End Development studies at Noroff Fagskole and am in the
+          process of finishing my last semester.
         </Paragraph>
         <Paragraph mb={5}>
           I hope you enjoy reading and looking through my work!

@@ -5,7 +5,7 @@ export default function Home() {
     <Layout>
       <Head
         title=""
-        description="Welcome, I'm Alex. Front-End developer. And this is my portfolio."
+        description="Welcome, I'm Alex. Full Stack developer. And this is my portfolio."
       />
       <Container>
         <HomeHero />

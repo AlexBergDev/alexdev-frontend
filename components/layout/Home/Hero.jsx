@@ -42,7 +42,7 @@ export default function Hero() {
             fontWeight={400}
             p={{ base: 0, lg: 2 }}
           >
-            Front-End developer
+            Full Stack developer
           </Heading>
           <Heading
             display="inline-flex"

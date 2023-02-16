@@ -26,7 +26,7 @@ export default function Footer() {
         justify={{ base: "center", md: "space-between" }}
         align="center"
       >
-        <Text>© 2022 Alex Dev. All rights reserved</Text>
+        <Text>© 2023 Alex Da Silva. All rights reserved</Text>
         <Text>
           Find me on{" "}
           <Link href="" passHref>
