@@ -75,6 +75,25 @@ export default function Portfolio() {
             </StackButton>
             <StackButton href="https://strapi.io">Strapi</StackButton>
           </PortfolioCard>
+
+          <PortfolioCard
+            image="/assets/images/portfolio/express-meme-page-preview.jpg"
+            date="Created January 23, 2023"
+            title="Express Meme Page"
+            description="A fictional meme page build with Express. Some of the key features of this project are a functional login page using passportJS. Demo coming soon."
+            demoHref=""
+            githubHref="https://github.com/AlexBergDev/Alex_DaSilva_AugFT22_JSS"
+          >
+            <StackButton href="https://www.javascript.com">
+              JavaScript
+            </StackButton>
+            <StackButton href="">Express</StackButton>
+            <StackButton href="">EJS</StackButton>
+            <StackButton href="https://www.w3schools.com/css/css_intro.asp">
+              CSS
+            </StackButton>
+            <StackButton href="https://getbootstrap.com">Bootstrap</StackButton>
+          </PortfolioCard>
         </PortfolioGrid>
       </Container>
     </Layout>
