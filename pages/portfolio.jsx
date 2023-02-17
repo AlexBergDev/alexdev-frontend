@@ -26,7 +26,8 @@ export default function Portfolio() {
             title="Eyes of Norway"
             description="Eyes of Norway is aiming for long-term, stable collaborations with only independent optical retailers on an exclusive distribution strategy in all areas around Scandinavia."
             demoHref="https://eyesofnorway.com"
-            githubHref="https://github.com/AlexBergDev/eyesofnorway-frontend"
+            githubHref=""
+            disabled
           >
             <StackButton href="https://nextjs.org">NextJS</StackButton>
             <StackButton href="https://chakra-ui.com">Chakra UI</StackButton>
@@ -40,7 +41,8 @@ export default function Portfolio() {
             title="Arctic Inn"
             description="Hotel & Camping website that allows guests to book a hotel room or parking. Information and pictures of the hotel and property are going to be displayed for potential guests."
             demoHref="https://arcticinn-frontend.vercel.app"
-            githubHref="https://github.com/AlexBergDev/arcticinn-frontend"
+            githubHref=""
+            disabled
           >
             <StackButton href="https://nextjs.org">NextJS</StackButton>
             <StackButton href="https://chakra-ui.com">Chakra UI</StackButton>

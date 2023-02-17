@@ -24,6 +24,7 @@ export default function PortfolioCard({
   description,
   demoHref,
   githubHref,
+  ...props
 }) {
   return (
     <Box
@@ -78,6 +79,7 @@ export default function PortfolioCard({
             width="full"
             leftIcon={<VscGithub />}
             rightIcon={<HiArrowSmRight />}
+            {...props}
           >
             Code
           </Button>
