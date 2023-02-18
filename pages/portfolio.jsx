@@ -36,25 +36,6 @@ export default function Portfolio() {
           </PortfolioCard>
 
           <PortfolioCard
-            image="/assets/images/portfolio/arctic-inn-preview.jpg"
-            date="Created May 29, 2022"
-            title="Arctic Inn"
-            description="Hotel & Camping website that allows guests to book a hotel room or parking. Information and pictures of the hotel and property are going to be displayed for potential guests."
-            demoHref="https://arcticinn-frontend.vercel.app"
-            githubHref=""
-            disabled
-          >
-            <StackButton href="https://nextjs.org">NextJS</StackButton>
-            <StackButton href="https://chakra-ui.com">Chakra UI</StackButton>
-            <StackButton href="https://strapi.io">Strapi</StackButton>
-            <StackButton href="https://www.heroku.com">Heroku</StackButton>
-            <StackButton href="https://www.postgresql.org">
-              PostgreSQL
-            </StackButton>
-            <StackButton href="https://cloudinary.com">Cloudinary</StackButton>
-          </PortfolioCard>
-
-          <PortfolioCard
             image="/assets/images/portfolio/arctic-fashion-preview.jpg"
             date="Created December 18, 2021"
             title="Arctic Fashion"
